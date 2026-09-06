@@ -49,3 +49,10 @@ body {
     clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
   }
 }
+
+a[href*='bolt.new'], a[id*='bolt'], div[class*='watermark'], button[id*='bolt'], .bolt-watermark, [data-bolt-watermark] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
